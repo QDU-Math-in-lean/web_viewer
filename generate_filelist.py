@@ -2,7 +2,7 @@
 """
 自动生成文件列表的脚本
 运行方式: python3 generate_filelist.py
-会自动更新 project.html 中的文件列表
+会自动更新 index.html 中的文件列表
 """
 
 import os
@@ -29,7 +29,7 @@ def generate_filelist_js(files):
     js_code += "        ];"
     return js_code
 
-def update_html_file(html_file='project.html'):
+def update_html_file(html_file='index.html'):
     """更新 HTML 文件中的文件列表"""
     with open(html_file, 'r', encoding='utf-8') as f:
         content = f.read()

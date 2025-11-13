@@ -2,7 +2,7 @@
 """
 简单的HTTP服务器，支持自动扫描Markdown文件
 运行方式: python3 server.py
-然后访问: http://localhost:8000/project.html
+然后访问: http://localhost:8000/
 """
 
 import http.server
